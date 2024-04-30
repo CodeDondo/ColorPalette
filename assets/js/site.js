@@ -36,7 +36,7 @@ function createTiles(){
  baseColors.forEach(color => {
       // color er farve koderne fra baseColors som tekst strenge
       const colorBox = document.createElement('div');
-      colorBox.classList.add(color-box);
+      colorBox.classList.add('color-box');
       colorBox.style.backgroundColor = color;
       colorBox.textContent = color;
       myColorElement.appendChild(colorBox);
